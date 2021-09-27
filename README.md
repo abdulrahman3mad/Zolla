@@ -1,8 +1,11 @@
 #Zolla
 An E-learning site 
 
-You can check it from here
+You can check it here 
 https://zollaa.herokuapp.com/
+
+Made using:
+HTML5, CSS/CSS3, Javascript, sass, ReactJs
 
 ![dsa](https://user-images.githubusercontent.com/65741884/134911082-99405dac-7a23-4972-9300-1d6986491297.png)
 
