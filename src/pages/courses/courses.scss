@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    .left{
+        flex:3;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .courseStates{
+            display: flex;
+            border-bottom:1px solid black;
+            span{
+                padding:0 10px;
+                font-size:1.2rem;
+                border-left:1px solid black;
+            }
+        }
+        section.list{
+            padding-top:0 !important;
+        }
+    }
+    .right{
+        flex:9;
+    }
+    img{
+
+    }
+}
+

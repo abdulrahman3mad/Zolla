@@ -1,0 +1,24 @@
+@import "./utilities/base";
+
+body{
+    font-family: "Tajawal", sans-serif;
+    direction: rtl;
+}
+*{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style:none;
+}
+.container{
+    padding:0 80px;
+    @include mq_max(768){
+        padding: 0 10px;
+    }
+}
+a{
+    text-decoration: none;
+}
+
+

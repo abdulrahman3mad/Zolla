@@ -1,0 +1,23 @@
+form.searchBarForm{
+    display:flex;
+    width:100vw;
+    Button.searchButton{
+        position: relative;
+        right:-70px;
+        flex:2;
+        color:white !important;
+    }
+    input{
+        outline: none;
+        background-color:#E1E1E1;
+        padding: 7px 10px;
+        text-align: right;
+        border:none;
+        border-radius: 15px;
+        flex:10;
+        &:focus{
+            box-shadow: 0 3px 5px rgb(190, 190, 190);
+        }
+    }
+    
+}

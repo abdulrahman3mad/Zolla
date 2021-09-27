@@ -1,0 +1,28 @@
+@import "../../utilities/base";
+
+.list{
+    padding: 50px 0 ;
+    h1{
+        display: inline-block;
+        padding-bottom:20px;
+    }
+    .upperTitle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    span.watchAllItems{
+        cursor: pointer;
+        color:$mainColor;
+        text-decoration:underline;
+    }
+    .items{
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 50px;
+        @include mq_max(768){
+            grid-template-columns: repeat(2, 1fr)
+        }
+    }
+}

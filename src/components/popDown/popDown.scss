@@ -1,0 +1,53 @@
+@import "../../utilities/base";
+
+.popDownContent{
+    overflow: hidden;
+    background-color:#F8F8F8;
+    box-shadow: 1px 1px 3px rgb(199, 199, 199);
+    width:100vw;
+    position: absolute;
+    top:60px;
+    
+    right:0;
+    ul{
+        padding:20px 10px 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    @include mq_min(768){
+        display:none;
+    }
+    li{
+        font-weight: 500;
+        margin-bottom:5px;
+        &.siteSystem{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            Button{
+                width:fit-content !important;
+                margin:5px;
+            }
+        }
+    }
+    
+    Button{
+        border-radius: 15px !important;
+        padding:0;
+    }
+    .lang{
+        display: inline-block;
+        border:1px solid rgb(192, 192, 192);
+        text-align: center;
+        cursor: pointer;
+        font-size:0.9rem;
+        border-radius: 50%;
+        width:22px;
+        font-weight: bold;
+        height:22px;
+        &:hover{
+            background-color:rgb(218, 218, 218, 0.3)
+        }
+    }
+}

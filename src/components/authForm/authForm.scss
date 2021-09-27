@@ -1,0 +1,38 @@
+@import "../../utilities/base";
+
+form.authForm{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 50px 0;
+    label{
+        margin-bottom:5px;
+        font-size:1.2rem;
+        color:rgb(83, 83, 83);
+    }
+    span{
+        display:block;
+        font-size:0.7rem;
+    }
+    input{
+        margin:5px 0 30px 0;
+        padding: 8px 10px;
+        display: block;
+        box-sizing:none;
+        font-size:1.2rem;
+        border-radius:10px !important;
+        background-color:transparent;
+        border:1px solid rgb(20, 20, 20, 0.2);
+        width:300px;
+        box-shadow:none !important;
+    }
+    
+    Button.signButton{
+        max-width:100px;
+        padding:7px;
+        color:white !important;
+        border-radius: 15px;
+        font-weight: bold ;
+        margin-top:10px;
+    }
+}
+

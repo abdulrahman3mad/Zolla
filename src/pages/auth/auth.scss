@@ -1,0 +1,26 @@
+@import "../../utilities/base";
+
+section.authContainer{
+    header{
+        position: static;
+    }
+    h2{
+        font-size:2rem;
+        color:grey;
+        text-align:center
+    }
+    p{
+        text-align:center;
+        a{
+            color:$mainColor; 
+            cursor: pointer;
+        }
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:40px 0 40px;
+        overflow:hidden;
+    }
+}

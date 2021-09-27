@@ -1,0 +1,14 @@
+$mainColor: #4BA0FE;
+$secondaryColor:#77C73A;
+
+@mixin mq_min($size){
+    @media screen and (min-width: $size + "px") {
+        @content;
+    }
+}
+
+@mixin mq_max($size){
+    @media screen and (max-width: $size + "px") {
+        @content;
+    }
+}

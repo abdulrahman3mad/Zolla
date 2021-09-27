@@ -1,0 +1,31 @@
+@import "../../utilities/base";
+
+.listItem{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    img{
+        max-width:100%;
+        object-fit:cover;
+    }
+    .info{
+        margin-top:5px;
+        div{
+            display:flex;
+            justify-content:space-between;
+            Button{
+                color:black;   
+                font-weight: 500;
+            }
+            span.price{
+                color:$secondaryColor;
+                font-weight:bold
+            }
+        }
+        p{
+            @include mq_max(769){
+                font-size:0.8rem
+            }
+        }
+    }
+}
